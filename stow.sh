@@ -1,6 +1,3 @@
-folders=$(ls -d */)
-
-for folder in $folders
-do
-   stow --target $HOME $folder
+for folder in */; do
+  stow --target $HOME $(basename $folder)
 done
