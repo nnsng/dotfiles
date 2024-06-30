@@ -1,16 +1,3 @@
-########## ALIASES ##########
-
-alias nv="nvim"
-
-alias c="clear"
-alias e="exit"
-
-alias ni="npm i"
-alias ns="npm start"
-alias nb="npm run build"
-
-alias gbc="git branch --show-current"
-
 export EDITOR=nvim
 
 # starship
@@ -40,9 +27,6 @@ export PATH="$HOME/.local/bin:$PATH"
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
-
-# git-plugin
-source ~/zsh-plugins/git/git.plugin.zsh
 
 # eza
 alias ls="eza --color=always --icons=always --oneline"
