@@ -8,6 +8,7 @@ alias ni="npm i"
 alias ns="npm start"
 alias nb="npm run build"
 
+alias gst="git status"
 alias gf="git fetch"
 alias gl="git pull"
 alias gp="git push"
