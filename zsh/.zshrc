@@ -1,3 +1,27 @@
+######## ALIASES ########
+alias nv="nvim"
+
+alias c="clear"
+alias e="exit"
+
+alias ni="npm i"
+alias ns="npm start"
+alias nb="npm run build"
+
+alias gf="git fetch"
+alias gl="git pull"
+alias gp="git push"
+alias gpf="git push --force"
+alias gaall="git add ."
+alias gc="git commit"
+alias gcm="git commit -m"
+alias gco="git checkout"
+alias gcb="git checkout -b"
+alias gbd="git branch -d"
+alias gbc="git branch --show-current"
+
+#########################
+
 export EDITOR=nvim
 
 # starship
