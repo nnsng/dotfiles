@@ -1,3 +1,3 @@
 for folder in */; do
-  stow --target $HOME $(basename $folder)
+  stow $(basename $folder)
 done
