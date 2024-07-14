@@ -56,7 +56,7 @@ alias ls="eza --color=always --icons=always --oneline"
 alias lsa="ls -la"
 
 # bat
-export BAT_THEME="Catppuccin Macchiato"
+export BAT_THEME="Catppuccin Mocha"
 
 # fzf
 eval "$(fzf --zsh)"
