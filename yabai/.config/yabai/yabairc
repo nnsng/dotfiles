@@ -28,6 +28,6 @@ yabai -m mouse_drop_action swap
 
 
 # disable specific apps
-EXCLUDE_APPS="(System Preferences|Calculator|QuickTime Player|Finder|Notes|Reminders|Microsoft Teams|Notion)"
+EXCLUDE_APPS="(System Preferences|Calculator|QuickTime Player|Finder|Notes|Reminders|Microsoft Teams|Microsoft Outlook|Notion|Postman|Spotify|Music|App Store)"
 yabai -m rule --add app="^${EXCLUDE_APPS}$" manage=off
 
