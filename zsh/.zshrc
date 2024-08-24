@@ -22,6 +22,7 @@ alias gcb="git checkout -b"
 alias gbd="git branch -d"
 alias gbD="git branch -D"
 alias gbc="git branch --show-current"
+alias gcp="git cherry-pick"
 
 #########################
 
