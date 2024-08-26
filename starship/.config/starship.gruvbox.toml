@@ -3,6 +3,7 @@
 format = """
 [](surface0)\
 $os\
+$username\
 [](bg:peach fg:surface0)\
 $directory\
 [](fg:peach bg:green)\
@@ -89,7 +90,8 @@ RedHatEnterprise = "󱄛"
 show_always = true 
 style_user = "bg:surface0 fg:text"
 style_root = "bg:surface0 fg:text"
-format = '[ $user ]($style)'
+format = '[$user ]($style)'
+disabled = true 
 
 [directory]
 style = "fg:mantle bg:peach"
@@ -102,7 +104,7 @@ truncation_symbol = "…/"
 # "Downloads" = " "
 # "Music" = "󰝚 "
 # "Pictures" = " "
-# "Developer" = "󰲋 "
+# "Dev" = "󰲋 "
 
 [git_branch]
 symbol = ""
@@ -168,7 +170,7 @@ disabled = true
 time_format = "%R"
 style = "bg:peach"
 format = '[[  $time ](fg:mantle bg:purple)]($style)'
-disabled = true 
+disabled = false 
 
 [cmd_duration]
 format = '[[  $duration ](fg:mantle bg:purple)]($style)'
@@ -179,6 +181,7 @@ disabled = true
 when = 'true'
 symbol = ''
 format = '[[ $symbol ](fg:mantle bg:purple)]($style)'
+disabled = true
 
 [line_break]
 disabled = false
