@@ -5,7 +5,7 @@ local config = wezterm.config_builder()
 config.color_scheme = "Catppuccin Mocha"
 
 -- config.font = wezterm.font("MesloLGS NF")
-config.font = wezterm.font("JetBrains Mono")
+config.font = wezterm.font("JetBrainsMono Nerd Font Mono")
 config.font_size = 14
 config.harfbuzz_features = { "zero", "cv11", "cv12" }
 
