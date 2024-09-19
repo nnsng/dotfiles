@@ -7,7 +7,7 @@ alias e="exit"
 alias ni="npm i"
 alias ns="npm start"
 alias nb="npm run build"
-alias nl="npm link ~/Dev/dxc/helix/Uptime-storybook"
+alias nl="npm link ~/Dev/dxc/helix/uptime-storybook"
 
 alias gst="git status"
 alias gf="git fetch"
