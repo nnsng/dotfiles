@@ -1,3 +1,5 @@
+if true then return {} else end
+
 return {
 	"akinsho/bufferline.nvim",
 	dependencies = { "nvim-tree/nvim-web-devicons" },
@@ -10,7 +12,7 @@ return {
 				offsets = {
 					{
 						filetype = "NvimTree",
-            text = "File Explorer",
+						text = "File Explorer",
 						separator = false,
 					},
 				},
