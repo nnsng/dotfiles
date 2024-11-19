@@ -1,5 +1,6 @@
 ######## ALIASES ########
 alias nv="nvim"
+alias ff="fastfetch"
 
 alias c="clear"
 alias e="exit"
