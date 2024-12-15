@@ -13,11 +13,11 @@ config.window_decorations = "RESIZE"
 
 config.enable_tab_bar = false
 
-config.initial_rows = 40
-config.initial_cols = 140
+config.initial_rows = 50
+config.initial_cols = 180
 
--- config.window_background_opacity = 0.95
--- config.macos_window_background_blur = 30
+config.window_background_opacity = 0.9
+config.macos_window_background_blur = 30
 
 config.keys = {
 	{
