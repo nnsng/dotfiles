@@ -100,3 +100,6 @@ function y() {
 	rm -f -- "$tmp"
 }
 
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/sangnguyen/.cache/lm-studio/bin"
