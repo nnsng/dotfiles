@@ -16,14 +16,16 @@ background-blur-radius = 20
 window-width = 100
 window-height = 30
 window-padding-balance = true
-# window-padding-x = 10
-# window-padding-y = 5
+window-padding-x = 10
+window-padding-y = 5
 
 macos-window-shadow = true
 macos-titlebar-proxy-icon = hidden
 window-colorspace = display-p3
 
 macos-option-as-alt = true
+
+confirm-close-surface = false
 
 mouse-hide-while-typing = true
 mouse-scroll-multiplier = 2
@@ -64,6 +66,8 @@ keybind = cmd+s>l=goto_split:right
 keybind = cmd+s>z=toggle_split_zoom
 
 keybind = cmd+s>e=equalize_splits
+
+keybind = global:ctrl+grave_accent=toggle_quick_terminal
 
 # other
 copy-on-select = clipboard
