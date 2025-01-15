@@ -48,10 +48,6 @@ eval "$(fnm env --use-on-cd)"
 # bun completions
 [ -s "/Users/sangnguyen/.bun/_bun" ] && source "/Users/sangnguyen/.bun/_bun"
 
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-
 # pyenv
 export PATH="$HOME/.local/bin:$PATH"
 export PYENV_ROOT="$HOME/.pyenv"
@@ -100,6 +96,3 @@ function y() {
 	rm -f -- "$tmp"
 }
 
-
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:/Users/sangnguyen/.cache/lm-studio/bin"
