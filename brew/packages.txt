@@ -1,3 +1,4 @@
+
 autoconf
 bat
 ca-certificates
@@ -7,6 +8,7 @@ fd
 fnm
 fzf
 gettext
+git
 lazygit
 libevent
 libgit2
@@ -40,15 +42,15 @@ zsh-autosuggestions
 zsh-syntax-highlighting
 alt-tab
 appcleaner
-brave-browser
+capcut
 cloudflare-warp
+discord
 figma
-firefox@developer-edition
 ghostty
 hiddenbar
-karabiner-elements
 messenger
-mongodb-compass
+microsoft-auto-update
+microsoft-teams
 monitorcontrol
 notion
 postman
