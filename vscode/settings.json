@@ -2,12 +2,13 @@
   "code-runner.clearPreviousOutput": true,
   "code-runner.runInTerminal": true,
   "css.format.spaceAroundSelectorSeparator": true,
-  // "custom-ui-style.font.sansSerif": "Dank Mono",
+  "custom-ui-style.font.sansSerif": "Dank Mono",
   "custom-ui-style.stylesheet": {
     ".monaco-action-bar.quick-input-inline-action-bar": "display: none",
-    ".monaco-list-row.focused": "outline: none !important",
-    ".quick-input-list .scrollbar": "display: none",
     ".quick-input-widget": "top: 25vh !important",
+    ".quick-input-widget.show-file-icons": "box-shadow: none !important",
+    ".quick-input-list .scrollbar": "display: none",
+    ".monaco-list-row.focused": "outline: none !important",
     ".monaco-workbench .pane-composite-part > .header-or-footer": "padding: 0 20px; margin: 0 -3px"
   },
   "diffEditor.experimental.showMoves": true,
@@ -30,6 +31,7 @@
   "editor.lineHeight": 1.8,
   "editor.lineNumbers": "relative",
   "editor.linkedEditing": true,
+  "editor.links": false,
   "editor.minimap.enabled": false,
   "editor.occurrencesHighlight": "off",
   "editor.overviewRulerBorder": false,
@@ -41,6 +43,8 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.decorations.badges": false,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.decorations.enabled": false,
@@ -50,6 +54,7 @@
   "prettier.bracketSameLine": true,
   "prettier.printWidth": 100,
   "prettier.singleQuote": true,
+  "svgPreview.autoOpen": false,
   // "terminal.integrated.fontFamily": "MesloLGS NF",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.smoothScrolling": true,
@@ -62,6 +67,7 @@
   "window.commandCenter": false,
   "window.newWindowProfile": "Default",
   "window.title": "${activeEditorShort}${separator}${rootName}",
+  "workbench.activityBar.location": "top",
   "workbench.colorTheme": "Dracula Flat",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.layoutControl.enabled": false,
@@ -70,6 +76,5 @@
   "workbench.startupEditor": "none",
   "workbench.statusBar.visible": true,
   "workbench.tips.enabled": false,
-  "workbench.tree.indent": 16,
-  "workbench.activityBar.location": "top"
+  "workbench.tree.indent": 16
 }
