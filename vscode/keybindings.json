@@ -61,42 +61,42 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "alt+tab",
+    "key": "alt+]",
     "command": "editor.action.indentLines",
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "shift+tab",
+    "key": "alt+[",
     "command": "editor.action.outdentLines",
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "cmd+[",
+    "key": "cmd+;",
     "command": "editor.fold",
     "when": "editorTextFocus && foldingEnabled"
   },
   {
-    "key": "cmd+]",
+    "key": "cmd+'",
     "command": "editor.unfold",
     "when": "editorTextFocus && foldingEnabled"
   },
   {
-    "key": "alt+cmd+[",
+    "key": "alt+cmd+;",
     "command": "editor.foldAll",
     "when": "editorTextFocus && foldingEnabled"
   },
   {
-    "key": "alt+cmd+]",
+    "key": "alt+cmd+'",
     "command": "editor.unfoldAll",
     "when": "editorTextFocus && foldingEnabled"
   },
   {
-    "key": "ctrl+alt+cmd+[",
+    "key": "ctrl+alt+cmd+;",
     "command": "editor.foldRecursively",
     "when": "editorTextFocus && foldingEnabled"
   },
   {
-    "key": "ctrl+alt+cmd+]",
+    "key": "ctrl+alt+cmd+'",
     "command": "editor.unfoldRecursively",
     "when": "editorTextFocus && foldingEnabled"
   },
@@ -219,12 +219,12 @@
     "when": "terminalFocus"
   },
   {
-    "key": "cmd+'",
+    "key": "cmd+]",
     "command": "workbench.action.nextEditor",
     "when": "!terminalFocus && !listFocus && !suggestWidgetVisible && !inQuickOpen && !inputBoxFocus"
   },
   {
-    "key": "cmd+;",
+    "key": "cmd+[",
     "command": "workbench.action.previousEditor",
     "when": "!terminalFocus && !listFocus && !suggestWidgetVisible && !inQuickOpen && !inputBoxFocus"
   },
