@@ -51,8 +51,7 @@ truncation_symbol = "…/"
 read_only = " "
 
 [directory.substitutions]
-"~/Documents/projects/personal" = "…/personal"
-"~/Documents/projects/dxc/helix" = "…/helix"
+# "~/Documents/projects/dxc/helix" = "…/helix"
 
 [git_branch]
 symbol = ""
