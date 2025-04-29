@@ -5,7 +5,7 @@ theme = catppuccin-mocha
 # font-feature = cv11
 # font-feature = cv12
 
-font-family = Lilex Nerd Font
+font-family = Lilex Nerd Font Mono
 font-feature = zero
 
 font-size = 14
