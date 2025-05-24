@@ -1,32 +1,5 @@
-######## ALIASES ########
-alias v="nvim"
-alias f="fzf"
-alias ff="fastfetch"
-
-alias c="clear"
-alias e="exit"
-
-alias ni="npm i"
-alias ns="npm start"
-alias nb="npm run build"
-alias nl="npm link ~/Documents/workspace/dxc/helix/uptime-storybook"
-
-alias gst="git status"
-alias gf="git fetch"
-alias gl="git pull"
-alias gp="git push"
-alias gpf!="git push -f"
-alias gaa="git add ."
-alias gcm="git commit"
-alias gcd="git checkout develop"
-alias gco="git checkout"
-alias gcb="git checkout -b"
-alias gbd="git branch -d"
-alias gbD="git branch -D"
-alias gbc="git branch --show-current"
-alias gcp="git cherry-pick"
-
-#########################
+# aliases
+source ~/.zsh_aliases
 
 export EDITOR=nvim
 
@@ -53,10 +26,6 @@ export PATH="$HOME/.local/bin:$PATH"
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
-
-# eza
-alias ls="eza --color=always --icons=always --oneline"
-alias lsa="ls -la"
 
 # bat
 export BAT_THEME="Catppuccin Mocha"
