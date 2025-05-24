@@ -1,0 +1,4 @@
+[include]
+  path = ~/.config/git/personal.config
+[includeIf "gitdir:~/Documents/workspace/dxc/"]
+  path = ~/.config/git/work.config
