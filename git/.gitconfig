@@ -1,4 +1,28 @@
 [include]
   path = ~/.config/git/personal.config
+
 [includeIf "gitdir:~/Documents/workspace/dxc/"]
   path = ~/.config/git/work.config
+
+[init]
+  defaultBranch = main
+
+[blame]
+  coloring = highlightRecent
+  date = relative
+
+[status]
+  branch = true
+  # short = true
+  showStash = true
+  showUntrackedFiles = all
+
+[push]
+  autoSetupRemote = true
+  default = current
+
+[pull]
+  rebase = true
+
+[rebase]
+  autoStash = true
