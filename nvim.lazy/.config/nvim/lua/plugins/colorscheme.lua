@@ -1,3 +1,5 @@
+if true then return {} end
+
 return {
   {
     "catppuccin/nvim",
@@ -7,6 +9,10 @@ return {
       require("catppuccin").setup({
         flavour = "mocha",
         transparent_background = true,
+        float = {
+          transparent = true,
+          solid = true,
+        },
       })
 
       vim.o.termguicolors = true
