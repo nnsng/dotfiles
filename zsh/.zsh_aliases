@@ -24,6 +24,7 @@ alias gcb="git checkout -b"
 alias gbd="git branch -D"
 alias gbc="git branch --show-current"
 alias gcp="git cherry-pick"
+alias grs="git reset HEAD~1"
 
 # eza
 alias ls="eza --color=always --icons=always --oneline"

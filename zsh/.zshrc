@@ -18,9 +18,6 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # fnm
 eval "$(fnm env --use-on-cd)"
 
-# bun completions
-[ -s "/Users/sangnguyen/.bun/_bun" ] && source "/Users/sangnguyen/.bun/_bun"
-
 # pyenv
 export PATH="$HOME/.local/bin:$PATH"
 export PYENV_ROOT="$HOME/.pyenv"
@@ -55,16 +52,14 @@ _fzf_comprun() {
   esac
 }
 
-# yazi
-function y() {
-	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
-	yazi "$@" --cwd-file="$tmp"
-	if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
-		builtin cd -- "$cwd"
-	fi
-	rm -f -- "$tmp"
-}
+# The following lines have been added by Docker Desktop to enable Docker CLI completions.
+fpath=(/Users/sangnguyen/.docker/completions $fpath)
+autoload -Uz compinit
+compinit
+# End of Docker CLI completions
 
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
+# Added by Antigravity
+export PATH="/Users/sangnguyen/.antigravity/antigravity/bin:$PATH"
+
+# Added by Antigravity IDE
+export PATH="/Users/sangnguyen/.antigravity-ide/antigravity-ide/bin:$PATH"
